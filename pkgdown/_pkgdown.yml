@@ -4,6 +4,11 @@ template:
   params:
     bootswatch: sandstone
 
+reference:
+- title: Package
+  contents:
+  - snapverse
+
 navbar:
   type: inverse
   right:

@@ -30,4 +30,4 @@ Imports:
     dplyr,
     magrittr
 Remotes:
-    snapmeta
+    leonawicz/snapmeta

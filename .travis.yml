@@ -5,6 +5,7 @@ sudo: false
 cache: packages
 
 r_github_packages:
+ - gaborcsardi/crayon
  - leonawicz/snapmeta
  - leonawicz/alfresco
 

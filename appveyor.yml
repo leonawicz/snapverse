@@ -20,6 +20,7 @@ environment:
     USE_RTOOLS: true
 
 build_script:
+  - travis-tool.sh install_github gaborcsardi/crayon
   - travis-tool.sh install_github leonawicz/snapmeta
   - travis-tool.sh install_github leonawicz/alfresco
   - travis-tool.sh install_deps

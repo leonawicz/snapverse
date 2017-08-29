@@ -28,6 +28,8 @@ Imports:
     snapmeta,
     rlang,
     dplyr,
-    magrittr
+    magrittr,
+    alfresco
 Remotes:
     leonawicz/snapmeta
+    leonawicz/alfresco

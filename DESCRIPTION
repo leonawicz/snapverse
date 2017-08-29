@@ -21,8 +21,7 @@ Suggests:
     testthat,
     knitr,
     rmarkdown,
-    covr,
-    crayon
+    covr
 VignetteBuilder: knitr
 RoxygenNote: 6.0.1
 Imports: 
@@ -32,6 +31,5 @@ Imports:
     magrittr,
     alfresco
 Remotes:
-    gaborcsardi/crayon
     leonawicz/snapmeta,
     leonawicz/alfresco

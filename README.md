@@ -3,6 +3,8 @@
 snapverse
 =========
 
+[![Travis-CI Build Status](https://travis-ci.org/leonawicz/snapverse.svg?branch=master)](https://travis-ci.org/leonawicz/snapverse) [![AppVeyor Build Status](https://ci.appveyor.com/api/projects/status/github/leonawicz/snapverse?branch=master&svg=true)](https://ci.appveyor.com/project/leonawicz/snapverse) [![Coverage Status](https://img.shields.io/codecov/c/github/leonawicz/snapverse/master.svg)](https://codecov.io/github/leonawicz/snapverse?branch=master)
+
 The SNAPverse is a collection of packages that work in tandem in the context of data sets and statistical analysis workflows pertaining to the Scenarios Network for Alaska and Arctic Planning at the University of Alaska Fairbanks. Sector packages make it easy to install and load multiple packages from different sectors of the SNAPverse. This package loads core packages from multiple sectors of the SNAPverse, making it the primary sector package. It loads packages from the functions, data, and apps sectors.
 
 For context, the other verse or sector packages are `snaplite` and `snapdata`. Each loads packages from one sector: functions and data, respectively. They are exclusive to a sector of the verse. While `snapverse` loads packages from several sectors, even this namesake package for the SNAPverse is not intended exhaustive. Rather, it aims to provide access to the most relevant functionality and data sets.

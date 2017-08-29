@@ -29,3 +29,5 @@ Imports:
     rlang,
     dplyr,
     magrittr
+Remotes:
+    snapmeta

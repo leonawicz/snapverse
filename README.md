@@ -18,7 +18,7 @@ Packages
 
 -   `snapfuns`: functions for working with popular, curated SNAP data from SNAPverse data packages.
 -   `snapprep`: functions for SNAP source data extraction, manipulation and curation for various projects.
--   `alfresco`: functions for working with and analyzing ALFRESCO wildfire model inputs and outputs.
+-   [`alfresco`](https://leonawicz.github.io/alfresco/): functions for working with and analyzing ALFRESCO wildfire model inputs and outputs.
 -   `snapclim`: SNAP climate data.
 -   `snapfire`: SNAP fire data.
 -   `snappoly`: collection of popular polygon shapefile data sets used at SNAP.

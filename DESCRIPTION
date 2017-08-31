@@ -29,7 +29,9 @@ Imports:
     rlang,
     dplyr,
     magrittr,
-    alfresco
+    alfresco,
+    snappoly
 Remotes:
     leonawicz/snapmeta,
-    leonawicz/alfresco
+    leonawicz/alfresco,
+    leonawicz/snappoly

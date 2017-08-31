@@ -35,7 +35,7 @@ The complete list of packages loaded by `snapverse` includes:
 * [`alfresco`](https://leonawicz.github.io/alfresco/): functions for working with and analyzing ALFRESCO wildfire model inputs and outputs.
 * `snapclim`: SNAP climate data.
 * `snapfire`: SNAP fire data.
-* `snappoly`: collection of popular polygon shapefile data sets used at SNAP.
+* [`snappoly`](https://leonawicz.github.io/snappoly/): collection of popular polygon shapefile data sets used at SNAP.
 * `snapmaps`: collection of popular gridded maps used at SNAP.
 * `snapdist`: SNAP spatial distributions examples data set.
 * `snapapps`: curated collection of SNAP R Shiny apps loadable via R package.

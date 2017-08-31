@@ -21,7 +21,7 @@ Packages
 -   [`alfresco`](https://leonawicz.github.io/alfresco/): functions for working with and analyzing ALFRESCO wildfire model inputs and outputs.
 -   `snapclim`: SNAP climate data.
 -   `snapfire`: SNAP fire data.
--   `snappoly`: collection of popular polygon shapefile data sets used at SNAP.
+-   [`snappoly`](https://leonawicz.github.io/snappoly/): collection of popular polygon shapefile data sets used at SNAP.
 -   `snapmaps`: collection of popular gridded maps used at SNAP.
 -   `snapdist`: SNAP spatial distributions examples data set.
 -   `snapapps`: curated collection of SNAP R Shiny apps loadable via R package.
@@ -33,8 +33,9 @@ The SNAPverse at a glance
 
 While `snapverse` does not include every package in the verse, it is helpful to see the verse at a glance, including satellite packages.
 
-\[Add diagram\]
-
+<p style="text-align:center;">
+<img src="man/figures/README-simple_verse_chart-1.svg">
+</p>
 Installation
 ------------
 

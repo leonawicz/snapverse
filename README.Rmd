@@ -48,7 +48,9 @@ Despite the hierarchy with `snaplite` and `snapdata` each fully encapsulated und
 
 While `snapverse` does not include every package in the verse, it is helpful to see the verse at a glance, including satellite packages.
 
-[Add diagram]
+
+<p style="text-align:center;"><img src="man/figures/README-simple_verse_chart-1.svg"></p>
+
 
 ## Installation
 

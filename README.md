@@ -34,8 +34,10 @@ The SNAPverse at a glance
 While `snapverse` does not include every package in the verse, it is helpful to see the verse at a glance, including satellite packages.
 
 <p style="text-align:center;">
-<img src="man/figures/README-simple_verse_chart-1.svg">
+<img src="man/figures/sv_all.png">
 </p>
+<br>
+
 Installation
 ------------
 
@@ -45,3 +47,8 @@ You can install snapverse from github with:
 # install.packages('devtools')
 devtools::install_github("leonawicz/snapverse")
 ```
+
+Reference
+---------
+
+[Package reference and function documentation](https://leonawicz.github.io/snapverse/)

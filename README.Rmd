@@ -48,9 +48,17 @@ Despite the hierarchy with `snaplite` and `snapdata` each fully encapsulated und
 
 While `snapverse` does not include every package in the verse, it is helpful to see the verse at a glance, including satellite packages.
 
+```{r is_md, echo = FALSE}
+is_md <- knitr::opts_knit$get("rmarkdown.pandoc.to") == "markdown_github-ascii_identifiers"
+```
 
-<p style="text-align:center;"><img src="man/figures/README-simple_verse_chart-1.svg"></p>
+```{r md_doc1, echo = FALSE, results = "asis", eval = is_md}
+cat('<p style="text-align:center;"><img src="man/figures/sv_all.png"></p><br>')
+```
 
+```{r html_doc1, echo = FALSE, results = "asis", eval = !is_md}
+cat('<p style="text-align:center;"><img src="man/figures/sv_all.svg"></p>')
+```
 
 ## Installation
 
@@ -59,4 +67,8 @@ You can install snapverse from github with:
 ```{r gh-installation, eval = FALSE}
 # install.packages("devtools")
 devtools::install_github("leonawicz/snapverse")
+```
+
+```{r md_doc3, echo = FALSE, results = "asis", eval = is_md}
+cat('## Reference\n\n[Package reference and function documentation](https://leonawicz.github.io/snapverse/)')
 ```

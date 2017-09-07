@@ -12,6 +12,9 @@
 #'   \item{snapmaps}{collection of popular gridded maps used at SNAP.}
 #'   \item{snapdist}{SNAP spatial distributions examples data set.}
 #'   \item{snapapps}{curated collection of SNAP R Shiny apps loadable via R package.}
+#'   \item{snapdash}{selected SNAP Shiny Dashboard apps.}
+#'   \item{snapflex}{selected SNAP Flex Dashboard apps.}
+#'   \item{snapdocs}{other SNAP interactive documents.}
 #' }
 #'
 #' @docType package

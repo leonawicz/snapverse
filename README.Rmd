@@ -7,7 +7,7 @@ output: github_document
 ```{r setup, include = FALSE}
 knitr::opts_chunk$set(
   collapse = TRUE, comment = "#>", fig.path = "man/figures/README-",
-  message = FALSE, warning = FALSE, error = FALSE, eval = TRUE, tidy = TRUE)
+  message = FALSE, warning = FALSE, error = FALSE, tidy = TRUE)
 ```
 # snapverse
 
@@ -27,7 +27,7 @@ They are always installed and loaded individually and do not have an accompanyin
 
 ## Packages
 
-`snapverse` includes all packages from the `snaplite` and `snapdata` sector packages as well as the `snapapps` package.
+`snapverse` includes all packages from the `snaplite`, `snapdata` and `snapwebs` sector packages.
 The complete list of packages loaded by `snapverse` includes:
 
 * `snapfuns`: functions for working with popular, curated SNAP data from SNAPverse data packages.
@@ -39,9 +39,12 @@ The complete list of packages loaded by `snapverse` includes:
 * `snapmaps`: collection of popular gridded maps used at SNAP.
 * `snapdist`: SNAP spatial distributions examples data set.
 * `snapapps`: curated collection of SNAP R Shiny apps loadable via R package.
+* `snapdash`: selected SNAP Shiny Dashboard apps.
+* `snapflex`: selected SNAP Flex Dashboard apps.
+* `snapdocs`: other SNAP interactive documents.
 
 All sector packages operate directly on the individual packages they cover.
-Despite the hierarchy with `snaplite` and `snapdata` each fully encapsulated under `snapverse`,
+Despite the hierarchy with `snaplite`, `snapdata` and `snapwebs` each fully encapsulated under `snapverse`,
 `snapverse` does not install or load these sector pages. Like these others, it installs and loads the individual member packages.
 
 ## The SNAPverse at a glance

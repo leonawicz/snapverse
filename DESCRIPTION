@@ -30,8 +30,10 @@ Imports:
     dplyr,
     magrittr,
     alfresco,
+    snapprep,
     snappoly
 Remotes:
     leonawicz/snapmeta,
     leonawicz/alfresco,
+    leonawicz/snapprep,
     leonawicz/snappoly

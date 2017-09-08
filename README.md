@@ -14,7 +14,7 @@ The SNAPverse also contains a number of satellite packages that are outside the 
 Packages
 --------
 
-`snapverse` includes all packages from the `snaplite` and `snapdata` sector packages as well as the `snapapps` package. The complete list of packages loaded by `snapverse` includes:
+`snapverse` includes all packages from the `snaplite`, `snapdata` and `snapwebs` sector packages. The complete list of packages loaded by `snapverse` includes:
 
 -   `snapfuns`: functions for working with popular, curated SNAP data from SNAPverse data packages.
 -   `snapprep`: functions for SNAP source data extraction, manipulation and curation for various projects.
@@ -25,8 +25,11 @@ Packages
 -   `snapmaps`: collection of popular gridded maps used at SNAP.
 -   `snapdist`: SNAP spatial distributions examples data set.
 -   `snapapps`: curated collection of SNAP R Shiny apps loadable via R package.
+-   `snapdash`: selected SNAP Shiny Dashboard apps.
+-   `snapflex`: selected SNAP Flex Dashboard apps.
+-   `snapdocs`: other SNAP interactive documents.
 
-All sector packages operate directly on the individual packages they cover. Despite the hierarchy with `snaplite` and `snapdata` each fully encapsulated under `snapverse`, `snapverse` does not install or load these sector pages. Like these others, it installs and loads the individual member packages.
+All sector packages operate directly on the individual packages they cover. Despite the hierarchy with `snaplite`, `snapdata` and `snapwebs` each fully encapsulated under `snapverse`, `snapverse` does not install or load these sector pages. Like these others, it installs and loads the individual member packages.
 
 The SNAPverse at a glance
 -------------------------
@@ -34,7 +37,7 @@ The SNAPverse at a glance
 While `snapverse` does not include every package in the verse, it is helpful to see the verse at a glance, including satellite packages.
 
 <p style="text-align:center;">
-<img src="man/figures/sv_all.png">
+<img src="man/figures/sv_all.png" width=350>
 </p>
 <br>
 

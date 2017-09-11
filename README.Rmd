@@ -31,12 +31,12 @@ They are always installed and loaded individually and do not have an accompanyin
 The complete list of packages loaded by `snapverse` includes:
 
 * `snapfuns`: functions for working with popular, curated SNAP data from SNAPverse data packages.
-* `snapprep`: functions for SNAP source data extraction, manipulation and curation for various projects.
+* [`snapprep`](https://leonawicz.github.io/snapprep/): functions for SNAP source data extraction, manipulation and curation for various projects.
 * [`alfresco`](https://leonawicz.github.io/alfresco/): functions for working with and analyzing ALFRESCO wildfire model inputs and outputs.
 * `snapclim`: SNAP climate data.
 * `snapfire`: SNAP fire data.
 * [`snappoly`](https://leonawicz.github.io/snappoly/): collection of popular polygon shapefile data sets used at SNAP.
-* `snapmaps`: collection of popular gridded maps used at SNAP.
+* [`snapgrid`](https://leonawicz.github.io/snapgrid/): collection of popular gridded maps used at SNAP.
 * `snapdist`: SNAP spatial distributions examples data set.
 * `snapapps`: curated collection of SNAP R Shiny apps loadable via R package.
 * `snapdash`: selected SNAP Shiny Dashboard apps.
@@ -56,11 +56,11 @@ is_md <- knitr::opts_knit$get("rmarkdown.pandoc.to") == "markdown_github-ascii_i
 ```
 
 ```{r md_doc1, echo = FALSE, results = "asis", eval = is_md}
-cat('<p style="text-align:center;"><img src="man/figures/sv_all.png" width=350></p><br>')
+cat('<p style="text-align:center;"><img src="https://raw.githubusercontent.com/leonawicz/leonawicz.github.io/master/assets/img/sv_all.png" width=350></p><br>')
 ```
 
 ```{r html_doc1, echo = FALSE, results = "asis", eval = !is_md}
-cat('<p style="text-align:center;"><img src="man/figures/sv_all.svg"></p>')
+cat('<p style="text-align:center;"><img src="https://raw.githubusercontent.com/leonawicz/leonawicz.github.io/master/assets/img/sv_all.svg?sanitize=true"></p>')
 ```
 
 ## Installation

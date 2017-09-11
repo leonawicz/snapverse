@@ -16,7 +16,7 @@ The snapverse package loads a subset of individual SNAPverse member packages.
   \item{snapclim}{SNAP climate data.}
   \item{snapfire}{SNAP fire data.}
   \item{snappoly}{collection of popular polygon shapefile data sets used at SNAP.}
-  \item{snapmaps}{collection of popular gridded maps used at SNAP.}
+  \item{snapgrid}{collection of popular gridded maps used at SNAP.}
   \item{snapdist}{SNAP spatial distributions examples data set.}
   \item{snapapps}{curated collection of SNAP R Shiny apps loadable via R package.}
   \item{snapdash}{selected SNAP Shiny Dashboard apps.}

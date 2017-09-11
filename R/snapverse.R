@@ -9,7 +9,7 @@
 #'   \item{snapclim}{SNAP climate data.}
 #'   \item{snapfire}{SNAP fire data.}
 #'   \item{snappoly}{collection of popular polygon shapefile data sets used at SNAP.}
-#'   \item{snapmaps}{collection of popular gridded maps used at SNAP.}
+#'   \item{snapgrid}{collection of popular gridded maps used at SNAP.}
 #'   \item{snapdist}{SNAP spatial distributions examples data set.}
 #'   \item{snapapps}{curated collection of SNAP R Shiny apps loadable via R package.}
 #'   \item{snapdash}{selected SNAP Shiny Dashboard apps.}
@@ -29,7 +29,7 @@ NULL
 
 .onAttach <- function(...) {
   # nolint start
-  core <- c("alfresco", "snapprep", "snappoly") # temporary override
+  core <- c("alfresco", "snapprep", "snappoly", "snapgrid") # temporary override
   #core <- dplyr::filter(
   #  snapmeta::sv_pkgs(), (!!"type") %in% c("functions", "data", "apps"))$pkg
   # nolint end

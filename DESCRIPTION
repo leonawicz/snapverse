@@ -31,9 +31,11 @@ Imports:
     magrittr,
     alfresco,
     snapprep,
-    snappoly
+    snappoly,
+    snapgrid
 Remotes:
     leonawicz/snapmeta,
     leonawicz/alfresco,
     leonawicz/snapprep,
-    leonawicz/snappoly
+    leonawicz/snappoly,
+    leonawicz/snapgrid

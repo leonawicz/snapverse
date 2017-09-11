@@ -17,12 +17,12 @@ Packages
 `snapverse` includes all packages from the `snaplite`, `snapdata` and `snapwebs` sector packages. The complete list of packages loaded by `snapverse` includes:
 
 -   `snapfuns`: functions for working with popular, curated SNAP data from SNAPverse data packages.
--   `snapprep`: functions for SNAP source data extraction, manipulation and curation for various projects.
+-   [`snapprep`](https://leonawicz.github.io/snapprep/): functions for SNAP source data extraction, manipulation and curation for various projects.
 -   [`alfresco`](https://leonawicz.github.io/alfresco/): functions for working with and analyzing ALFRESCO wildfire model inputs and outputs.
 -   `snapclim`: SNAP climate data.
 -   `snapfire`: SNAP fire data.
 -   [`snappoly`](https://leonawicz.github.io/snappoly/): collection of popular polygon shapefile data sets used at SNAP.
--   `snapmaps`: collection of popular gridded maps used at SNAP.
+-   [`snapgrid`](https://leonawicz.github.io/snapgrid/): collection of popular gridded maps used at SNAP.
 -   `snapdist`: SNAP spatial distributions examples data set.
 -   `snapapps`: curated collection of SNAP R Shiny apps loadable via R package.
 -   `snapdash`: selected SNAP Shiny Dashboard apps.
@@ -37,7 +37,7 @@ The SNAPverse at a glance
 While `snapverse` does not include every package in the verse, it is helpful to see the verse at a glance, including satellite packages.
 
 <p style="text-align:center;">
-<img src="man/figures/sv_all.png" width=350>
+<img src="https://raw.githubusercontent.com/leonawicz/leonawicz.github.io/master/assets/img/sv_all.png" width=350>
 </p>
 <br>
 

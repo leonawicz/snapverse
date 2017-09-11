@@ -24,6 +24,7 @@ build_script:
   - travis-tool.sh install_github leonawicz/alfresco
   - travis-tool.sh install_github leonawicz/snapprep
   - travis-tool.sh install_github leonawicz/snappoly
+  - travis-tool.sh install_github leonawicz/snapgrid
   - travis-tool.sh install_deps
 
 test_script:

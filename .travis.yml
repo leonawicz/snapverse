@@ -15,6 +15,7 @@ r_github_packages:
  - leonawicz/alfresco
  - leonawicz/snapprep
  - leonawicz/snappoly
+ - leonawicz/snapgrid
 
 after_success:
   - Rscript -e 'covr::codecov()'

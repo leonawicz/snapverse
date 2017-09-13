@@ -55,4 +55,3 @@ NULL
 snapverse_update <- function(force = FALSE, quiet = TRUE){
   snapmeta::sector_update(pkg = "snapverse", force = force, quiet = quiet)
 }
-

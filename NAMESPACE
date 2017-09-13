@@ -2,4 +2,3 @@
 
 export(snapverse_update)
 importFrom(magrittr,"%>%")
-importFrom(rlang,"!!")

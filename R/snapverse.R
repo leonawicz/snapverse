@@ -22,7 +22,6 @@
 NULL
 
 #' @importFrom magrittr %>%
-#' @importFrom rlang !!
 NULL
 
 # code modified from tidyverse: https://github.com/tidyverse
@@ -31,7 +30,7 @@ NULL
   # nolint start
   core <- c("alfresco", "snapprep", "snappoly", "snapgrid") # temporary override
   #core <- dplyr::filter(
-  #  snapmeta::sv_pkgs(), (!!"type") %in% c("functions", "data", "apps"))$pkg
+  #  snapmeta::sv_pkgs(), .data[["type"]] %in% c("functions", "data", "apps"))$pkg
   # nolint end
   needed <- core[!snapmeta::is_attached(core)]
   if (length(needed) == 0) return()

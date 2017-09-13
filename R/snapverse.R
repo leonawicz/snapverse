@@ -37,3 +37,22 @@ NULL
   if (length(needed) == 0) return()
   snapmeta::verse_attach(core)
 }
+
+#' Update \code{snapverse}
+#'
+#' Update \code{snapverse} and its member packages.
+#'
+#' This function updates packages from GitHub. See \url{http://leonawicz.github.io/sv}.
+#'
+#' @param force If \code{TRUE}, force member install even if unchanged.
+#' @param quiet logical.
+#'
+#' @export
+#' @examples
+#' \dontrun{
+#' snapverse_update()
+#' }
+snapverse_update <- function(force = FALSE, quiet = TRUE){
+  snapmeta::sector_update(pkg = "snapverse", force = force, quiet = quiet)
+}
+

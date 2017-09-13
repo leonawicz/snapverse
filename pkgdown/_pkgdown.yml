@@ -16,6 +16,9 @@ reference:
 - title: Package
   contents:
   - snapverse
+- title: Updating
+  contents:
+  - snapverse_update
 
 navbar:
   type: inverse

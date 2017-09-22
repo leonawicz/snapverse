@@ -15,7 +15,7 @@ snapverse_update(force = FALSE, quiet = TRUE)
 Update \code{snapverse} and its member packages.
 }
 \details{
-This function updates packages from GitHub. See \url{http://leonawicz.github.io/sv}.
+This function updates packages from GitHub. See \url{https://leonawicz.github.io/sv}.
 }
 \examples{
 \dontrun{

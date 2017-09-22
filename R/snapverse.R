@@ -41,7 +41,7 @@ NULL
 #'
 #' Update \code{snapverse} and its member packages.
 #'
-#' This function updates packages from GitHub. See \url{http://leonawicz.github.io/sv}.
+#' This function updates packages from GitHub. See \url{https://leonawicz.github.io/sv}.
 #'
 #' @param force If \code{TRUE}, force member install even if unchanged.
 #' @param quiet logical.

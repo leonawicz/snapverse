@@ -28,13 +28,15 @@ Imports:
     snapmeta,
     dplyr,
     magrittr,
-    alfresco,
+    snaplocs,
     snapprep,
+    alfresco,
     snappoly,
     snapgrid
 Remotes:
     leonawicz/snapmeta,
-    leonawicz/alfresco,
+    leonawicz/snaplocs,
     leonawicz/snapprep,
+    leonawicz/alfresco,
     leonawicz/snappoly,
     leonawicz/snapgrid

@@ -12,8 +12,9 @@ addons:
 r_github_packages:
  - gaborcsardi/crayon
  - leonawicz/snapmeta
- - leonawicz/alfresco
+ - leonawicz/snaplocs
  - leonawicz/snapprep
+ - leonawicz/alfresco
  - leonawicz/snappoly
  - leonawicz/snapgrid
 

@@ -17,6 +17,7 @@ Packages
 `snapverse` includes all packages from the `snaplite`, `snapdata` and `snapwebs` sector packages. The complete list of packages loaded by `snapverse` includes:
 
 -   `snapfuns`: functions for working with popular, curated SNAP data from SNAPverse data packages.
+-   [`snaplocs`](https://leonawicz.github.io/snaplocs/): functions for working with SNAP point locations data.
 -   [`snapprep`](https://leonawicz.github.io/snapprep/): functions for SNAP source data extraction, manipulation and curation for various projects.
 -   [`alfresco`](https://leonawicz.github.io/alfresco/): functions for working with and analyzing ALFRESCO wildfire model inputs and outputs.
 -   `snapclim`: SNAP climate data.

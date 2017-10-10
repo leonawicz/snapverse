@@ -25,7 +25,7 @@ Packages
 -   [`snappoly`](https://leonawicz.github.io/snappoly/): collection of popular polygon shapefile data sets used at SNAP.
 -   [`snapgrid`](https://leonawicz.github.io/snapgrid/): collection of popular gridded maps used at SNAP.
 -   `snapdist`: SNAP spatial distributions examples data set.
--   `snapapps`: curated collection of SNAP R Shiny apps loadable via R package.
+-   [`snapapps`](https://leonawicz.github.io/snapapps/): curated collection of SNAP R Shiny apps loadable via R package.
 -   `snapdash`: selected SNAP Shiny Dashboard apps.
 -   `snapflex`: selected SNAP Flex Dashboard apps.
 -   `snapdocs`: other SNAP interactive documents.

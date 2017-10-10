@@ -32,11 +32,13 @@ Imports:
     snapprep,
     alfresco,
     snappoly,
-    snapgrid
+    snapgrid,
+    snapapps
 Remotes:
     leonawicz/snapmeta,
     leonawicz/snaplocs,
     leonawicz/snapprep,
     leonawicz/alfresco,
     leonawicz/snappoly,
-    leonawicz/snapgrid
+    leonawicz/snapgrid,
+    leonawicz/snapapps

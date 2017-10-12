@@ -1,7 +1,7 @@
 # snapverse 0.2.3 (Release date: 2017-10-12)
 
 * Updated readme.
-* Added basic unit test of `snapverse_update`.
+* Added basic unit tests of `snapverse_update` and unexported `.onAttach`.
 
 # snapverse 0.2.2 (Release date: 2017-10-10)
 

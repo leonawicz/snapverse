@@ -11,6 +11,8 @@ For context, the other verse or sector packages are `snaplite`, `snapdata` and `
 
 The SNAPverse also contains a number of satellite packages that are outside the core of the verse. Satellites represent another sector of the verse. They are always installed and loaded individually and do not have an accompanying sector package.
 
+*Note: The SNAPverse is currently in early development. A number of packages are not yet available online and those available are under active development.*
+
 Packages
 --------
 

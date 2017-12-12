@@ -1,3 +1,7 @@
+# snapverse 0.2.3 (Release date: 2017-12-11)
+
+* Added `snapclim` to `snapverse` load list.
+
 # snapverse 0.2.3 (Release date: 2017-10-12)
 
 * Updated readme.

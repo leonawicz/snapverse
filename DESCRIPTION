@@ -1,5 +1,5 @@
 Package: snapverse
-Version: 0.2.3
+Version: 0.2.4
 Title: Primary Sector Package For SNAPverse
 Description: The SNAPverse is a collection of packages that work in tandem
     in the context of data sets and statistical analysis workflows pertaining to the 
@@ -31,6 +31,7 @@ Imports:
     snaplocs,
     snapprep,
     alfresco,
+    snapclim,
     snappoly,
     snapgrid,
     snapapps
@@ -39,6 +40,7 @@ Remotes:
     leonawicz/snaplocs,
     leonawicz/snapprep,
     leonawicz/alfresco,
+    leonawicz/snapclim,
     leonawicz/snappoly,
     leonawicz/snapgrid,
     leonawicz/snapapps

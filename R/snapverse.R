@@ -3,7 +3,7 @@
 #' The snapverse package loads a subset of individual SNAPverse member packages.
 #'
 #' \describe{
-#'   \item{snapfuns}{functions for working with popular, curated SNAP data from SNAPverse data packages.}
+#'   \item{snapstat}{functions for working with popular, curated SNAP data from SNAPverse data packages.}
 #'   \item{snaplocs}{functions for working with SNAP point locations data.}
 #'   \item{snapprep}{functions for SNAP source data extraction, manipulation and curation for various projects.}
 #'   \item{alfresco}{functions for working with and analyzing ALFRESCO wildfire model inputs and outputs.}
@@ -29,7 +29,7 @@ NULL
 
 .onAttach <- function(...) {
   # nolint start
-  core <- c("snaplocs", "snapprep", "alfresco", "snappoly", "snapgrid", "snapapps") # temporary override
+  core <- c("snaplocs", "snapprep", "alfresco", "snappoly", "snapgrid", "snapclim", "snapapps") # temporary override
   #core <- dplyr::filter(
   #  snapmeta::sv_pkgs(), .data[["type"]] %in% c("functions", "data", "apps"))$pkg
   # nolint end

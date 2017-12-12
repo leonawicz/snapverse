@@ -10,7 +10,7 @@ The snapverse package loads a subset of individual SNAPverse member packages.
 }
 \details{
 \describe{
-  \item{snapfuns}{functions for working with popular, curated SNAP data from SNAPverse data packages.}
+  \item{snapstat}{functions for working with popular, curated SNAP data from SNAPverse data packages.}
   \item{snaplocs}{functions for working with SNAP point locations data.}
   \item{snapprep}{functions for SNAP source data extraction, manipulation and curation for various projects.}
   \item{alfresco}{functions for working with and analyzing ALFRESCO wildfire model inputs and outputs.}

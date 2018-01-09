@@ -29,7 +29,7 @@ NULL
 
 .onAttach <- function(...) {
   # nolint start
-  core <- c("snaplocs", "snapprep", "alfresco", "snappoly", "snapgrid", "snapclim", "snapapps") # temporary override
+  core <- c("snaplocs", "snapplot", "snapprep", "alfresco", "snapstat", "snappoly", "snapgrid", "snapclim", "snapapps", "snapflex") # temporary override
   #core <- dplyr::filter(
   #  snapmeta::sv_pkgs(), .data[["type"]] %in% c("functions", "data", "apps"))$pkg
   # nolint end

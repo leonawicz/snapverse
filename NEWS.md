@@ -1,4 +1,8 @@
-# snapverse 0.2.3 (Release date: 2017-12-11)
+# snapverse 0.2.5 (Release date: 2018-01-09)
+
+* Added `snapstat`, `snapplot` and `snapflex` to `snapverse` load list.
+
+# snapverse 0.2.4 (Release date: 2017-12-11)
 
 * Added `snapclim` to `snapverse` load list.
 

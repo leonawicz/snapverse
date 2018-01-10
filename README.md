@@ -18,7 +18,8 @@ Packages
 
 `snapverse` includes all packages from the `snaplite`, `snapdata` and `snapwebs` sector packages. The complete list of packages loaded by `snapverse` includes:
 
--   `snapstat`: functions for working with popular, curated SNAP data from SNAPverse data packages.
+-   [`snapstat`](https://leonawicz.github.io/snapstat/): functions for working with popular, curated SNAP data from SNAPverse data packages.
+-   [`snapplot`](https://leonawicz.github.io/snapplot/): functions providing graphing support for SNAP data.
 -   [`snaplocs`](https://leonawicz.github.io/snaplocs/): functions for working with SNAP point locations data.
 -   [`snapprep`](https://leonawicz.github.io/snapprep/): functions for SNAP source data extraction, manipulation and curation for various projects.
 -   [`alfresco`](https://leonawicz.github.io/alfresco/): functions for working with and analyzing ALFRESCO wildfire model inputs and outputs.
@@ -29,7 +30,7 @@ Packages
 -   `snapdist`: SNAP spatial distributions examples data set.
 -   [`snapapps`](https://leonawicz.github.io/snapapps/): curated collection of SNAP R Shiny apps loadable via R package.
 -   `snapdash`: selected SNAP Shiny Dashboard apps.
--   `snapflex`: selected SNAP Flex Dashboard apps.
+-   [`snapflex`](https://leonawicz.github.io/snapflex/): selected SNAP flexdashboards.
 -   `snapdocs`: other SNAP interactive documents.
 
 All sector packages operate directly on the individual packages they cover. Despite the hierarchy with `snaplite`, `snapdata` and `snapwebs` each fully encapsulated under `snapverse`, `snapverse` does not install or load these sector pages. Like these others, it installs and loads the individual member packages.
@@ -57,4 +58,4 @@ devtools::install_github("leonawicz/snapverse")
 Reference
 ---------
 
-[Package reference and function documentation](https://leonawicz.github.io/snapverse/)
+[Complete package reference and function documentation](https://leonawicz.github.io/snapverse/)

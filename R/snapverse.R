@@ -4,6 +4,7 @@
 #'
 #' \describe{
 #'   \item{snapstat}{functions for working with popular, curated SNAP data from SNAPverse data packages.}
+#'   \item{snapplot}{functions for graphing SNAP data.}
 #'   \item{snaplocs}{functions for working with SNAP point locations data.}
 #'   \item{snapprep}{functions for SNAP source data extraction, manipulation and curation for various projects.}
 #'   \item{alfresco}{functions for working with and analyzing ALFRESCO wildfire model inputs and outputs.}
@@ -29,7 +30,7 @@ NULL
 
 .onAttach <- function(...) {
   # nolint start
-  core <- c("snaplocs", "snapplot", "snapprep", "alfresco", "snapstat", "snappoly", "snapgrid", "snapclim", "snapapps", "snapflex") # temporary override
+  core <- c("snapplot", "snaplocs", "snapprep", "alfresco", "snapclim", "snappoly", "snapgrid", "snapapps", "snapflex") # temporary override
   #core <- dplyr::filter(
   #  snapmeta::sv_pkgs(), .data[["type"]] %in% c("functions", "data", "apps"))$pkg
   # nolint end

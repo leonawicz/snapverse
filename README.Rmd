@@ -15,6 +15,10 @@ knitr::opts_chunk$set(
 [![AppVeyor Build Status](https://ci.appveyor.com/api/projects/status/github/leonawicz/snapverse?branch=master&svg=true)](https://ci.appveyor.com/project/leonawicz/snapverse)
 [![Coverage Status](https://img.shields.io/codecov/c/github/leonawicz/snapverse/master.svg)](https://codecov.io/github/leonawicz/snapverse?branch=master)
 
+## SNAPverse R package ecosystem development frozen.
+
+*Development of the SNAPverse R package ecosystem has been frozen indefinitely. This project was never directly funded. I began it out of personal interest, but no longer work for SNAP. It will remain archived here for historical reference.*
+
 The SNAPverse is a collection of packages that work in tandem in the context of data sets and statistical analysis workflows pertaining to the Scenarios Network for Alaska and Arctic Planning at the University of Alaska Fairbanks. Sector packages make it easy to install and load multiple packages from different sectors of the SNAPverse. This package loads core packages from multiple sectors of the SNAPverse, making it the primary sector package. 
 It loads packages from the functions, data, and apps sectors.
 
@@ -24,8 +28,6 @@ even this namesake package for the SNAPverse is not intended to be exhaustive. R
 
 The SNAPverse also contains a number of satellite packages that are outside the core of the verse. Satellites represent another sector of the verse.
 They are always installed and loaded individually and do not have an accompanying sector package. 
-
-*Note: The SNAPverse is currently in early development. A number of packages are not yet available online and those available are under active development.*
 
 ## Packages
 
